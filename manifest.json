@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Cookie Master",
+  "description": "Introducing CookieMaster, a powerful Chrome extension designed by Keshav Vishwakarma. Take control of your browsing experience with ease by managing, editing, and deleting cookies effortlessly. Whether it's customizing your preferences or enhancing privacy, CookieMaster puts you in charge, ensuring a smoother and more personalized web experience.",
+  "version": "1.0",
+  "permissions": ["cookies", "activeTab"],
+
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_icon": "icon.png",
+    "default_popup": "index.html"
+  }
+}
